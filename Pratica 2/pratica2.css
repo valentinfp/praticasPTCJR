@@ -17,10 +17,17 @@ body{
 }
 
 .title{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	font-size: 3em;
 	color: #555555;
 }
+
+
+.distant{
+	margin-top: 2.5em;
+	padding: 1em 0px;
+}
+
 .column2{
 	font-size:0.8em;
 	font-family: 'Open Sans', sans-serif;
@@ -52,7 +59,7 @@ body{
 }
 
 .confirmBox:hover{
-	background-color: #009900; 
+	background-color: #1e7b34; 
 }
 
 .confirmBox:active{
@@ -72,11 +79,6 @@ body{
 .loginBox:active{
 	background-color: #28a745;
 	color: #FFFFFF;
-}
-
-.distant{
-	margin-top: 2.5em;
-	padding: 1em 0px;
 }
 
 .grayline{
