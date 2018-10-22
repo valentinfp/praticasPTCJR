@@ -86,3 +86,15 @@ body{
 	width: 100%;
 	border-bottom: 1px solid #E0E0E0;
 }
+
+@media (max-width: 700px) and (max-height: 800px){
+	.column1{
+		display: none;
+	}
+	.column2{
+		width: 100%;
+	}
+	.distant{
+		margin-top: 1.5em;
+	}
+}

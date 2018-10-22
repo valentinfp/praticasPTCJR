@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Backoffice - dinnerdash</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="..\Arquivos Auxiliares\normalize.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth">
+	<link rel="stylesheet" href="pratica3.css">
+</head>
+<body>
+	<div class="containerColumn"><!-- 
+		<img class="fullSize bgImage" src="office.jpg"> -->
+		<div class="rowBodyHeader officeImg">
+			<div class="rowOptions">
+				<div class="leftPart">
+					<span class="dinnerdashLogo">dinnerdash</span>
+				</div>
+				<div class="rightPart" >
+					<span class="textSpacement" style="color:orange">backoffice</span>
+					<a href="perfil.html" class="noChangeLink"><span class="textSpacement">perfil</span></a>
+					<a href="..\Pratica 2\login.html" class="noChangeLink"><span class="textSpacement">sair</span></a>
+				</div>
+			</div>
+			<div class="titleBackOffice">
+				<span class="bigTitle1">Backoffice</span>
+				<br>
+				<span class="subTitle">Gerencie pedidos, refeições e mais.</span>
+			</div>
+		</div>
+		<div class="navBar">
+			<span class="navOption textSpacement">Pedidos</span>
+			<span class="navOption textSpacement notSelected">Usuários</span>
+			<span class="navOption textSpacement notSelected">Refeições</span>
+			<span class="navOption textSpacement notSelected">Categorias de Refeição</span>
+		</div>
+		<div class="rowBody ">
+			<div class="rowTable">
+				<table class="table">
+					<thead >
+						<tr class="tableHeader">
+							
+							<th>Pedido de nº</th>
+							<th>Status</th>
+							<th>Data</th>
+							<th>Usuário</th>
+							<th>Preço total</th>
+							<th>Detalhes</th>
+							<th></th>
+							<th></th>
+										
+						</tr>
+					</thead>
+					<tbody class="tableBody">
+						<tr class="tableRow">
+							<td>103849</td>
+							<td><div class="serviceStatusP">pendente</div></td>
+							<td>30/11/2017</td>
+							<td>Rafael</td>
+							<td>R$72,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+						<tr class="tableRow">
+							<td>103849</td>
+							<td><div class="serviceStatusE">entregue</div></td>
+							<td>30/11/2017</td>
+							<td>Rafael</td>
+							<td>R$105,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+						<tr class="tableRow">
+							<td>102453</td>
+							<td><div class="serviceStatusC"v>cancelado</div></td>
+							<td>15/11/2017</td>
+							<td>Rafael</td>
+							<td>R$90,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+						<tr class="tableRow">
+							<td>101270</td>
+							<td><div class="serviceStatusE">entregue</div></td>
+							<td>02/11/2017</td>
+							<td>Rafael</td>
+							<td>R$145,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+						<tr class="tableRow">
+							<td>101103</td>
+							<td><div class="serviceStatusE">entregue</div></td>
+							<td>01/11/2017</td>
+							<td>Pedro</td>
+							<td>R$55,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+						<tr class="tableRow">
+							<td>101034</td>
+							<td><div class="serviceStatusE">entregue</div></td>
+							<td>30/10/2017</td>
+							<td>Augusto</td>
+							<td>R$70,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+						<tr class="tableRow">
+							<td>101012</td>
+							<td><div class="serviceStatusC"><span>cancelado</span></div></td>
+							<td>27/10/2017</td>
+							<td>Pedro</td>
+							<td>R$90,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+						<tr class="tableRow">
+							<td>101003</td>
+							<td><div class="serviceStatusE">entregue</div></td>
+							<td>23/11/2017</td>
+							<td>Flávio</td>
+							<td>R$185,00</td>
+							<td class="blueTOption">ver itens pedidos</td>
+							<td class="yellowTOption">editar</td>
+							<td class="redTOption">excluir</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="boxCenter">
+				<button class="pageButton btnLeft"><<</button>
+				<button class="pageButton btnSelected">1</button>
+				<button class="pageButton">2</button>
+				<button class="pageButton btnRight">>></button>
+			</div>
+		</div>
+
+		<div class="navBar footer">
+			<div class="fullLength">
+				<div class="leftPart">
+					<span > dinnerdash | todos os direitos reservados</span>
+				</div>
+				<div class="rightPart" style="color: #5C5C5C; font-size: 0.8em">
+					<span>desenvolvido por Valentin Paes</span>
+				</div>
+			</div>
+		</div>	
+	
+	</div>
+
+	
+	
+</body>
+</html>

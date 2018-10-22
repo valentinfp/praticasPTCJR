@@ -1,0 +1,377 @@
+body{
+	margin: 0px;
+}
+
+.containerRow {
+	display: flex;
+}
+
+.twoColumn{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bigPadding{
+	padding: 1em 5em;
+}
+
+#updateProfile{
+	width: 70%;
+}
+
+.containerColumn{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.column3{
+	width: 48%;
+}
+.column1{
+	width: 65%;
+	height: 100vh;
+}
+.fullSize{
+	height: 100%;
+	width: 100%;
+}
+
+.bigTitle1{
+	font-size:3em;
+}
+
+.subTitle{
+	margin: 0.5em 0;
+	font-size:1.25em;
+}
+
+.textSpacement{
+	padding: 0 0.8em;
+}
+
+.distant{
+	margin-top: 2.5em;
+	padding: 1em 0px;
+}
+
+.column2{
+	font-size:0.8em;
+	font-family: 'Open Sans', sans-serif;
+	color: #868686;
+	width: 35%;
+	padding: 0px 4em;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.officeImg{
+	background-image: url(office.jpg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center;
+	background-size: cover;
+	/*background-color: #333333;
+	background-blend-mode: multiply;
+*/
+}
+/*.officeImg1{
+	background-image: url(office.jpg);
+	background-position: center;
+	background-size: cover;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(office.jpg);
+
+}*/
+.restImg{
+	background-image: url(restaurant.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center;
+	background-size: cover;}
+
+.boxCenter{
+	color: black;
+	padding: 0.5em 5em;
+	display: flex;
+	justify-content: center;
+
+}
+
+.pageButton{
+	margin: 2em 0;
+	border: 1px solid #D0D0D0;
+	width: 3em;
+	height: 3em;
+	font-size: 0.7em;
+	color: #0066ff;
+	background-color: white;
+	cursor: pointer;
+}
+
+.pageButton:hover{
+	background-color: #cce0ff;
+}
+
+.pageButton:active{
+	background-color: #0066ff;
+	color: white;
+}
+
+.btnLeft{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.btnRight{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.btnSelected{
+	background-color: #0066ff;
+	color: white;
+}
+
+.btnSelected:hover{
+	background-color: #0047b3;	
+}
+.btnSelected:active{
+	color: #0066ff;
+	background-color: white;	
+}
+.rowBodyHeader{
+	position: relative;
+	padding: 0.5em 5em;
+	height: 50vh;
+}
+
+.titleBackOffice{
+	position: absolute;
+	bottom: 10%;
+}
+
+.rowAccount{
+	padding: 0.5em 5em;
+}
+
+.rowBody{
+	min-height: 50vh;
+}
+.rowTable{
+	padding: 0.5em 5em;
+	background-color: white;
+}
+
+.noChangeLink{
+	text-decoration: none; 
+	color:white;
+}
+.rowUpdateAccount{
+	padding: 0.5em 5em;
+}
+
+.rowOptions{
+	padding: 0.5em 0;
+	height: 15%;
+	color:white;
+	display: flex;
+}
+
+.navBar{
+	font-size: 0.9em;
+	padding: 0.7em 5em;	
+	background-color: #444444;
+}
+
+.navOption{
+	cursor:pointer;
+}
+
+.navOption:hover{
+	color: white;
+}
+
+.notSelected{
+	color: #CCCCCC;
+}
+
+.footer{
+	position:relative;
+	bottom: 0;
+	background-color: #E0E0E0;
+	color: #3e3e3e;
+}
+
+.scrollY{
+	overflow-y: scroll;
+}
+
+.leftPart{
+	height: 100%;
+	width: 100%;
+}
+
+.rightPart{
+	height: 100%;
+	width: 30%;
+	text-align: right;
+}
+
+.fullLength{
+	display: flex;
+}
+
+.dinnerdashLogo{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 1.5em;
+}
+
+.textBox{
+	width: 100%;
+	margin: 1em 0px;
+	padding: 0.5em 3px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border-style: outset;
+	box-sizing: border-box;
+	border:1px solid #D0D0D0;
+	text-shadow: none;
+}
+
+.confirmBox{
+	background-color: #28a745;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.confirmBox:hover{
+	background-color: #1e7b34; 
+}
+
+.confirmBox:active{
+	border-color:  #28a745;
+	background-color: #FFFFFF;
+	color:  #28a745;
+}
+.loginBox{
+	border-color:  #28a745;
+	color:  #28a745;
+	cursor: pointer;
+}
+
+.loginBox:hover{
+	background-color: rgb(220,220,220);
+}
+.loginBox:active{
+	background-color: #28a745;
+	color: #FFFFFF;
+}
+
+.grayline{
+	height: 5px;
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.bgImage{
+	position: absolute;
+	z-index: -1;
+}
+
+@media (max-width: 700px) and (max-height: 800px){
+	.column1{
+		display: none;
+	}
+	.column2{
+		width: 100%;
+	}
+	.distant{
+		margin-top: 1.5em;
+	}
+}
+
+/*Table classes*/
+
+.blueTOption{
+	color: #007BFF;
+	cursor: pointer;
+}
+
+.blueTOption:hover{
+	color: #4da3ff;	
+}
+
+.yellowTOption{
+	color: #FDDF4C;
+	cursor: pointer;
+}
+
+.yellowTOption:hover{
+	color: #fee981;
+}
+
+.redTOption{
+	color: #E82431;
+	cursor: pointer;
+}
+
+.redTOption:hover{
+	color: #b9131e;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.tableHeader th{
+	background-color: #DEE2E6;
+	text-align: left;
+	color: #6B6C6D;
+	padding: 10px 20px;
+}
+
+.tableHElement{
+	text-align: left;
+}
+.tableBody tr{
+	color: #868686;
+	border-bottom: 1px solid #E0E0E0; 
+}
+
+.tableRow td{
+	padding: 10px 20px;
+}
+
+.serviceStatusP{
+	font-size: 0.8em;
+	color: #FFFFFF;
+	padding: 3px 12px;
+	background-color: #007bff;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 14px;
+}
+
+.serviceStatusE{
+	font-size: 0.8em;
+	color: #FFFFFF;
+	padding: 3px 12px;
+	background-color: #28a745;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 14px;
+}
+
+.serviceStatusC{
+	font-size: 0.8em;
+	color: #FFFFFF;
+	background-color: #E82431;
+	text-align: center;
+	padding: 3px 12px;
+	border-radius: 5px;
+	margin-right: 14px;
+}
