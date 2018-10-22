@@ -161,6 +161,7 @@ body{
 }
 .rowTable{
 	padding: 0.5em 5em;
+	overflow-x: auto;
 	background-color: white;
 }
 
